@@ -5,6 +5,13 @@ html, body {
   font-family:'Lato', sans-serif ;
   scroll-behavior: smooth;
 }
+/*.dquotes is for double quotes. .squote is for single quotes. */
+.dquotes {
+  quotes: "“" "”";
+}
+.squote {
+quotes: "’" "’" ;
+}
 
 /* Make buttons automatically have the pointy cursor (👆) */
 button,a, [type="button"], summary {
