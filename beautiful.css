@@ -5,20 +5,28 @@ html, body {
   font-family:'Lato', sans-serif ;
   scroll-behavior: smooth;
 }
+
+/* Make buttons automatically have the pointy cursor (👆) */
 button,a, [type="button"], summary {
   cursor:pointer;
   font-family:'Lato', sans-serif ;
 }
+
+/* These are for text headings: */
 .title {
   font-size: 50px; /* Works best on <h1> */
 }
 .second-title {
   font-size: 36px; /* Works best on <h2> */ 
 }
-b-container {
+
+/* A b-container adds a solid black border around your content. */
+.b-container {
   margin:3px;
   border: 3px solid rgba(0, 0, 0, 0.801) ;
 }
+
+/* For profile images, add the class pfp so that it will resize to a profile image size. Note that this is only for images. Code: <img src="#" class="pfp" /> */
 img[class="pfp"] {
  vertical-align: middle;
   width: 50px;
@@ -40,11 +48,20 @@ img[class="pfp"] {
   text-align: center;
 }
 
+  /* .unselectable doesn't allow for a user to select the content that has that class. */
 .unselectable {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
   -moz-user-select: none; /* Mozilla */
+}
+
+/* .show makes your content visible, and .hide makes your content invisible but still takes up space on the page. */
+.show {
+  visibility: visible;
+}
+.hide {
+  visibility: hidden;
 }
 
 /* Credits to colorhexa.com for the colors. */
