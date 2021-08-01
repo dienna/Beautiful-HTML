@@ -5,7 +5,8 @@ html, body {
   font-family:'Lato', sans-serif ;
   scroll-behavior: smooth;
 }
-/*.dquotes is for double quotes. .squote is for single quotes. */
+
+/*.dquotes is for double quotes. .squote is for single quotes. Credits: https://www.w3.org/2009/cheatsheet/#typo */
 .dquotes {
   quotes: "“" "”";
 }
@@ -20,10 +21,10 @@ button,a, [type="button"], summary {
 }
 
 /* These are for text headings: */
-.title {
+h1.title {
   font-size: 50px; /* Works best on <h1> */
 }
-.second-title {
+h2.second-title {
   font-size: 36px; /* Works best on <h2> */ 
 }
 
@@ -34,7 +35,7 @@ button,a, [type="button"], summary {
 }
 
 /* For profile images, add the class pfp so that it will resize to a profile image size. Note that this is only for images. Code: <img src="#" class="pfp" /> */
-img[class="pfp"] {
+img.pfp {
  vertical-align: middle;
   width: 50px;
   height: 50px;
