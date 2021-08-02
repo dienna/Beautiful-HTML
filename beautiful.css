@@ -1,5 +1,5 @@
+/* Things that ya gotta start with! In other words, preset settings. */
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 html, body {
   margin:10px;
   font-family:'Lato', sans-serif ;
@@ -123,3 +123,15 @@ border: solid black 3px;
 .txtcolor-purple {color:#800080 ;}
 .txtcolor-violet {color:#ee82ee ;}
 .txtcolor-ultramarine {color:#120a8f ;} 
+
+/* Loadin in da fonts, luv! */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Text Fonts */
+.comic-sans-ms {font-family: cursive;}
+.roboto {font-family: 'Roboto', sans-serif;}
+.lato {font-family:'Lato', sans-serif ;}
+.times-new-roman {font-family: fantasy;}
+#code-span {font-family: monospace;}
+
