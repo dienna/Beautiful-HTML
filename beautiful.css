@@ -6,11 +6,11 @@ html, body {
   scroll-behavior: smooth;
 }
 
-/*.dquotes is for double quotes. .squote is for single quotes. Credits: https://www.w3.org/2009/cheatsheet/#typo */
-.dquotes {
+/*.dquotes is for double quotes. .squote is for single quotes. Note that they can only be used on the <q> tag which is for quotes.  Credits: https://www.w3.org/2009/cheatsheet/#typo */
+q.dquotes {
   quotes: "“" "”";
 }
-.squote {
+q.squote {
 quotes: "’" "’" ;
 }
 
