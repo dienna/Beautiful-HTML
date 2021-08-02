@@ -15,7 +15,7 @@ quotes: "’" "’" ;
 }
 
 /* Make buttons automatically have the pointy cursor (👆) */
-button,a, [type="button"], summary {
+button,a, input[type="button"], summary, input[type="submit"], input[type="checkbox"] {
   cursor:pointer;
   font-family:'Lato', sans-serif ;
 }
