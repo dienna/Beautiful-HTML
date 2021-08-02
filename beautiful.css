@@ -72,6 +72,13 @@ img.pfp {
   visibility: hidden;
 }
 
+/* Tables Styling! 😆 yeah!*/
+td, tr, tbody, thead, table, input {
+font-size:25px;
+font-family:roboto;
+border: solid black 3px;
+}
+
 /* Credits to colorhexa.com for the colors. */
 /* Background Colors */
 .bgcolor-orange {background-color:#ff9a00;}
