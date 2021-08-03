@@ -14,7 +14,7 @@ q.squote {
 quotes: "’" "’" ;
 }
 
-/* Make buttons automatically have the pointy cursor (👆) */
+/* Make all types of buttons automatically have the pointy cursor (👆) */
 button,a, input[type="button"], summary, input[type="submit"], input[type="checkbox"] {
   cursor:pointer;
   font-family:'Lato', sans-serif ;
