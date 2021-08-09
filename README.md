@@ -3,6 +3,7 @@
 
 ~ The styles will make your website look better, and there are scripts for other things!
 
-# Uses
+# Pros
 
-~ 
+~ Too lazy to create your own styles and scripts? Use our styles & scripts.
+
