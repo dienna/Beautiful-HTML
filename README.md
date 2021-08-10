@@ -3,7 +3,9 @@
 
 ~ The styles will make your website look better, and there are scripts for other things!
 
-# Pros
+# The Good It Does
 
 ~ Too lazy to create your own styles and scripts? Use our styles & scripts.
+
+~ You don't really need documentation because there are comments in the scriptsheet and stylesheet that explain the code
 
